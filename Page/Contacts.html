@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="../Styles/style2.css">
+</head>
+<body>
+    
+    <header>
+        <div>
+            <nav class="active" id="nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Page/Meals.html">Meals</a></li>
+                    <li><a href="../Page/Ingredients.html">Ingredients</a></li>
+                    <li><a href="../Page/Contacts.html">Contacts</a></li>
+                </ul>
+                <button class="icon" id="toggle">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                </button>
+            </nav>
+        </div> 
+
+        <div class="head2">
+            <h1>Are you <span>Hungry</span> ?</h1> 
+            <img style="margin-left: 130px;" src="../Assets/h.jpeg" alt="fotoHead"> 
+        </div>
+    </header>
+    
+    <main id="mainContacts">
+        <h1> Thank you for contacting us!!! </h1> 
+
+        <div class="mainContacts">
+            <form action=""> 
+
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" >
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone"> 
+
+                <label for="comment">Message: </label>
+                <textarea name="comment" id="comment" cols="30" rows="20"></textarea>
+
+                <input type="checkbox" name="privacyPolicy" id="privacyPolicy"> I accept the privacy policy 
+
+                <button type="submit">Send</button>
+
+            </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <i class="fa fa-copyright" aria-hidden="true">JJulisssa</i>
+    </footer>
+
+    <script src="../JS/main.js"></script>
+</body>
+</html>

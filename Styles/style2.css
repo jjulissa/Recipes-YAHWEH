@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+} 
+
+/* Contacts  */
+
+#mainContacts { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.mainContacts form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+} 
+
+.mainContacts { 
+    padding-top: 20px; 
+    background-color: tomato;
+    width: 1000px;
+    margin-top: 50px;
+    border-radius: 300px 50px;
+}
+
+.mainContacts form input, .mainContacts form textarea { 
+    width: 500px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.mainContacts form button { 
+    background: linear-gradient(to bottom right, #fafafa, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.mainContacts form button:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.mainContacts form button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+/* Meals */ 
+
+#mainMeals h1 { 
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.mainMeals { 
+    margin-top: 0px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+/* Ingredients */ 
+
+.mainIngredients { 
+    margin-top: 50px;
+}
+
+.containerIngre { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.divIngre { 
+    display: flex;
+    gap: 250px;
+}
